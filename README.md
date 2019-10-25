@@ -41,7 +41,7 @@ sudo apt install apache2 apache2-utils
 sudo systemctl status apache2
 go to ip droplet 127.0.1.0
 
-# www-data → /var/www/html groups activation
+# www-data → groups activation
 sudo chown www-data:www-data /var/www/html/ -R
 sudo usermod -aG www-data jeff
 
